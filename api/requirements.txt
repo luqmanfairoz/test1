@@ -1,0 +1,7 @@
+beautifulsoup4
+
+flask
+
+redis
+wikipedia
+requests
