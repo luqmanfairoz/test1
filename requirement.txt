@@ -1,0 +1,8 @@
+Muhammad Luqman@DESKTOP-7MEP61Q MINGW64 ~/test232/api (master)
+$ cat requirements.txt                                                                                                                                                  beautifulsoup4
+
+flask
+
+redis
+wikipedia
+requests

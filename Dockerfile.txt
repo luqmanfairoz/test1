@@ -1,0 +1,13 @@
+Muhammad Luqman@DESKTOP-7MEP61Q MINGW64 ~/test232/api (master)
+$ cat Dockerfile                                                                                                                                                        FROM python:3
+LABEL maintainer="Sawood Alam <@ibnesayeed>"
+
+ENV Redis_URL="redis://localhost:6379"
+
+WORKDIR /app
+COPY requirements.txt /app/
+RUN pip install -r requirements.txt
+COPY    *.py /app/
+RUN     chmod a+x *.py
+
+CMD ["./main.py"]
